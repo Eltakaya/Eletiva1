@@ -21,7 +21,7 @@
     <p>
         <?php
             $nome = "Eduardo"; // criei uma variavel e atribui uma string, Cria variavel com $
-            echo "O nome é: $nome "; // Com $ exibe o valor da variavel quando usa aspas duplas
+             // Com $ exibe o valor da variavel quando usa aspas duplas
             echo 'O nome é: $nome '; // Com aspas simples não exibe conteudo
         ?>
     </p>
