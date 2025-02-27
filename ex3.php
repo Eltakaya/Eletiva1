@@ -21,47 +21,47 @@
         <form>
             <div class="row g-3">
                 <div class="col-md-6 d-flex align-items-center">
-                    <label class="form-label me-2" style="width: 150px;">Partner Name</label>
+                    <label class="form-label me-2 fw-bold" style="width: 150px;">Partner Name</label>
                     <input type="text" class="form-control ">
                 </div>
                 <div class="col-md-6 d-flex align-items-center">
-                    <p class="form-label me-2" style="width: 150px;">Partner Email ID</p>
+                    <p class="form-label me-2 fw-bold" style="width: 150px;">Partner Email ID</p>
                     <input type="email" class="form-control ">
                 </div>
                 <div class="col-md-6 d-flex align-items-center">
-                    <p class="form-label me-2 text-end" style="width: 150px; ">Partner Legal Name</p>
+                    <p class="form-label me-2 fw-bold text-end" style="width: 150px; ">Partner Legal Name</p>
                     <input type="text" class="form-control ">
                 </div>
                 <div class="col-md-6 d-flex align-items-center">
-                    <p class="form-label me-2" style="width: 150px;">Partner Mobile</p>
+                    <p class="form-label me-2 fw-bold" style="width: 150px;">Partner Mobile</p>
                     <input type="tel" class="form-control ">
                 </div>
                 <div class="col-md-12 d-flex align-items-center">
-                    <p class="form-label me-2" style="width: 150px;">Partner Address</p>
+                    <p class="form-label me-2 fw-bold" style="width: 150px;">Partner Address</p>
                     <textarea class="form-control " rows="2"></textarea>
                 </div>
                 <div class="col-md-6 d-flex align-items-center">
-                    <p class="form-label me-2 text-end" style="width: 150px;">Contract Start Date</p>
+                    <p class="form-label me-2 fw-bold text-end" style="width: 150px;">Contract Start Date</p>
                     <input type="text" class="form-control " placeholder="Date Start">
                 </div>
                 <div class="col-md-6 d-flex align-items-center">
-                    <p class="form-label me-2 text-end" style="width: 150px;">Contract Expiry Date</p>
+                    <p class="form-label me-2 fw-bold text-end" style="width: 150px;">Contract Expiry Date</p>
                     <input type="text" class="form-control " placeholder="Date End">
                 </div>
                 <div class="col-md-6 d-flex align-items-center">
-                    <p class="form-label me-2 text-end" style="width: 150px;">Minimum Loan Amount</p>
+                    <p class="form-label me-2 fw-bold text-end" style="width: 150px;">Minimum Loan Amount</p>
                     <input type="number" class="form-control ">
                 </div>
                 <div class="col-md-6 d-flex align-items-center">
-                    <p class="form-label me-2 text-end" style="width: 150px;">Maximum Loan Amount</p>
+                    <p class="form-label me-2 fw-bold text-end" style="width: 150px;">Maximum Loan Amount</p>
                     <input type="number" class="form-control ">
                 </div>
                 <div class="col-md-6 d-flex align-items-center">
-                    <p class="form-label me-2" style="width: 150px;">Interest Rate</p>
+                    <p class="form-label me-2 fw-bold" style="width: 150px;">Interest Rate</p>
                     <input type="number" step="0.01" class="form-control ">
                 </div>
                 <div class="col-md-6 d-flex align-items-center">
-                    <p class="form-label me-2" style="width: 150px;">Deposit Amount</p>
+                    <p class="form-label me-2 fw-bold" style="width: 150px;">Deposit Amount</p>
                     <input type="number" class="form-control ">
                 </div>
                 <div class="col-12 text-center mt-3">
