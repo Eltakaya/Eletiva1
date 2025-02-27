@@ -12,11 +12,14 @@
         if ($_SERVER['REQUEST_METHOD'] == 'POST') {
           try {
             $num1 = $_POST['num1'];
-            $num2 = $_POST['num2']; 
-            $num3 = $_POST['num3'];
-            $juros = $num1 * ($num2/100) * $num3;
-            
-            echo "O valor do juros: $juros";
+            $num2 = $_POST['num2'];
+            if ($num2 != 0) {
+              $velocidade = $num1 / $num2;
+          
+              echo "A velocidade média é: $velocidade km/h";
+            } else {
+              echo "Erro: tempo não pode ser zero!";
+            }
           } catch(Exception $e){
             echo $e->getMessage();
           }

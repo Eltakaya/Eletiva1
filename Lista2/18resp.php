@@ -15,8 +15,9 @@
             $num2 = $_POST['num2']; 
             $num3 = $_POST['num3'];
             $juros = $num1 * ($num2/100) * $num3;
+            $montante = $num1 * pow((1 + ($num2/100)), $num3);
             
-            echo "O valor do juros: $juros";
+            echo " O valor do montante com juros compostos é: $montante";
           } catch(Exception $e){
             echo $e->getMessage();
           }
