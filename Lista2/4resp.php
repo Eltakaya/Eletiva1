@@ -13,17 +13,18 @@
           try {
             $num1 = $_POST['num1'];
             $num2 = $_POST['num2'];
-            $divisao = $num1 / $num2;
             
-            if($divisao <= 0){
-                echo"Divisao por zero";
+            if($num1 and $num2 !=0){
+              $divisao = $num1 / $num2;
+              echo "O valor da divisao: $divisao";
             }
             else
-              echo "O valor da divisao: $divisao";
+              echo"Divisao por zero";
+          
           } catch(Exception $e){
             echo $e->getMessage();
           }
-        } 
+        }  
     ?>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
   </body>
