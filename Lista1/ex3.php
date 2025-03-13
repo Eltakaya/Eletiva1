@@ -37,7 +37,7 @@
                     <input type="tel" class="form-control ">
                 </div>
                 <div class="col-md-12 d-flex align-items-center">
-                    <p class="form-label me-2 fw-bold" style="width: 150px;">Partner Address</p>
+                    <p class="form-label me-2 fw-bold text-end" style="width: 130px;">Partner Address</p>
                     <textarea class="form-control " rows="2"></textarea>
                 </div>
                 <div class="col-md-6 d-flex align-items-center">
@@ -57,11 +57,11 @@
                     <input type="number" class="form-control ">
                 </div>
                 <div class="col-md-6 d-flex align-items-center">
-                    <p class="form-label me-2 fw-bold" style="width: 150px;">Interest Rate</p>
+                    <p class="form-label me-2 fw-bold text-end" style="width: 150px;">Interest Rate</p>
                     <input type="number" step="0.01" class="form-control ">
                 </div>
                 <div class="col-md-6 d-flex align-items-center">
-                    <p class="form-label me-2 fw-bold" style="width: 150px;">Deposit Amount</p>
+                    <p class="form-label me-2 fw-bold text-end" style="width: 150px;">Deposit Amount</p>
                     <input type="number" class="form-control ">
                 </div>
                 <div class="col-12 text-center mt-3">
