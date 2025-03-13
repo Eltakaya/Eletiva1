@@ -9,10 +9,14 @@
   <body>
     <h1>Respostas</h1>
     <?php
-      if ($_SERVER["REQUEST_METHOD"] == "POST") {
-        $numero = floatval($_POST['num']);
+      function arredonda (float $numero) : void{
         $arredondado = round($numero);
         echo "O número $numero arredondado é $arredondado";
+      }
+
+      if ($_SERVER["REQUEST_METHOD"] == "POST") {
+        $numero = floatval($_POST['num']);
+        arredonda($numero);
       }
     ?>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>

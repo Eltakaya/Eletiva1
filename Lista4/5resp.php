@@ -9,15 +9,17 @@
   <body>
     <h1>Respostas</h1>
     <?php
-      if ($_SERVER["REQUEST_METHOD"] == "POST") {
-        $numero = floatval($_POST['num']);
-        
+      function raiz (float $numero) : void{
         if ($numero >= 0) {
           $raiz = sqrt($numero);
           echo "A raiz quadrada de $numero é $raiz";
         } else {
             echo "Não é possível calcular a raiz quadrada de um número negativo.";
         }
+      }
+      if ($_SERVER["REQUEST_METHOD"] == "POST") {
+        $numero = floatval($_POST['num']);
+        raiz($numero);
       }
     ?>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>

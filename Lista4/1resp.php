@@ -9,10 +9,14 @@
   <body>
     <h1>Respostas</h1>
     <?php
+        function numChar (string $palavra) : void{
+          $num_char = strlen($palavra);
+          echo "A palavra digitada tem $num_char caracteres.";      
+      }
+
       if ($_SERVER["REQUEST_METHOD"] == "POST") {
         $palavra = $_POST['palavra'];
-        $num_char = strlen($palavra);
-        echo "A palavra digitada tem $num_char caracteres.";
+        numChar($palavra);
       }
     ?>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
